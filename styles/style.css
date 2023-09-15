@@ -36,3 +36,57 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 5px;
+  }
+
+  header h1 {
+    font-size: 16px;
+  }
+
+  header strong {
+    font-size: 14px;
+  }
+
+  main {
+    height: 60vh;
+  }
+
+  #map {
+    height: 400px;
+  }
+
+  footer {
+    padding: 5px;
+  }
+}
+
+/* Estilos para tablet */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  header {
+    padding: 8px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  header strong {
+    font-size: 16px;
+  }
+
+  main {
+    height: 70vh;
+  }
+
+  #map {
+    height: 500px;
+  }
+
+  footer {
+    padding: 8px;
+  }
+}
